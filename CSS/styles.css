@@ -269,3 +269,67 @@ header .container {
 .card .image img {
   width: 100%;
 }
+.about {
+  margin-top: 50px;
+}
+.about .container {
+  margin: 0 auto;
+  text-align: center;
+}
+.about-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 150px;
+}
+.about-container .image {
+  position: relative;
+  width: 250px;
+  height: 375px;
+}
+.about-container .image img {
+  width: 100%;
+  z-index: 3;
+  position: relative;
+  left: 0;
+  display: block;
+}
+.about-container .text {
+  width: 100%;
+  white-space: break-spaces;
+  text-align: start;
+  position: relative;
+}
+.about-container .image::before {
+  content: "";
+  background-color: #eee9e9;
+  height: 120%;
+  width: 100px;
+  left: -20px;
+  top: -10%;
+  position: absolute;
+}
+.about-container .image::after {
+  content: "";
+  background-color: #10cab7;
+  height: 100%;
+  width: 85px;
+  right: -20px;
+  top: -10%;
+  position: absolute;
+}
+
+hr {
+  width: 50%;
+  position: absolute;
+  right: 40%;
+  border-color: #10cab7;
+}
+.about-container .text p:last-child {
+  color: #777;
+  line-height: 1.6;
+}
+.about-container .text p:first-child {
+  font-weight: 700;
+  line-height: 1.6;
+}
