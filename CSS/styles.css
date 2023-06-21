@@ -26,7 +26,7 @@ body {
 header {
   padding: 20px;
 }
-.container {
+header .container {
   /*   */
   margin: 0 auto;
   padding: 0 15px;
@@ -75,6 +75,7 @@ header {
   right: 0;
   top: calc(100% + 20px);
   display: none;
+  z-index: 5;
 }
 .links ul li:hover a {
   padding-left: 25px;
@@ -133,19 +134,105 @@ header {
   background-color: #f6f6f6;
 }
 .features .container {
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   text-align: center;
 }
-.features .container i{
+.features .container i {
   color: #10cab7;
 }
-.features .container h3{
+.features .container h3 {
   font-weight: 800;
   margin: 20px 0;
 }
-.features .container p{
+.features .container p {
   color: #777;
   line-height: 1.8;
+}
+.services {
+  margin-top: 50px;
+}
+.services .container {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.common-heading {
+  color: #ebeced;
+  font-size: 100px;
+  font-weight: 800;
+}
+.common-heading + p {
+  color: #777;
+  margin-top: -30px;
+  font-size: 20px;
+}
+@media (max-width: 767px) {
+  .common-heading {
+    font-size: 70px;
+  }
+  .common-heading + p {
+    font-size: 16px;
+    margin-top: -20px;
+  }
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-top: 100px;
+  gap: 20px;
+}
+.serv i {
+  color: #10cab7;
+}
+.serv .text h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.serv .text p {
+  color: #999;
+  line-height: 1.8;
+}
+.serv .text {
+  text-align: start;
+  margin-left: 40px;
+}
+.serv {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .serv {
+    flex-direction: column;
+    text-align: center;
+  }
+  .serv .text {
+    margin-top: 40px;
+    text-align: center;
+  }
+}
+.col .image {
+  text-align: center;
+  position: relative;
+}
+.col .image img {
+  width: 260px;
+}
+.col .image::before {
+  content: "";
+  background-color: #2c4755;
+  width: 100px;
+  height: calc(100% + 100px);
+  position: absolute;
+  top: -50px;
+  right: 0;
+  z-index: -1;
+}
+@media (max-width: 1199px) {
+  .col .image {
+    display: none;
+  }
 }
