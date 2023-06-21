@@ -101,9 +101,51 @@ header {
   right: 5px;
   top: -20px;
 }
-.links ul li:not(:last-child)  a {
+.links ul li:not(:last-child) a {
   border-bottom: 1px solid #cac8c8;
 }
-.links:hover ul{
+.links:hover ul {
   display: block;
+}
+.landing {
+  background-image: url("../images/landing.jpg");
+  height: calc(100vh - 64px);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing h2 {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 50px;
+  color: #10cab7;
+}
+.landing p {
+  width: 320px;
+  text-align: center;
+  font-size: 19px;
+  line-height: 2;
+}
+.features {
+  padding: 60px 0;
+  background-color: #f6f6f6;
+}
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+.features .container i{
+  color: #10cab7;
+}
+.features .container h3{
+  font-weight: 800;
+  margin: 20px 0;
+}
+.features .container p{
+  color: #777;
+  line-height: 1.8;
 }
