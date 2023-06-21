@@ -1,1 +1,1 @@
-This template has been initialized using HTML5-CSS3 only
+This template is based on HTML5-CSS3 only
