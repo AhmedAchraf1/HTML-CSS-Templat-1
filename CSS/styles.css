@@ -333,3 +333,52 @@ hr {
   font-weight: 700;
   line-height: 1.6;
 }
+.contact {
+  margin-top: 50px;
+  background-color: #f6f6f6;
+  padding: 50px 0;
+}
+.contact .container {
+  margin: 0px auto;
+  text-align: center;
+}
+.contact .container .text {
+  margin-top: 80px;
+}
+.contact .container .text div:first-child {
+  color: #2c4755;
+  font-size: 40px;
+  letter-spacing: -3px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.contact .container .text div:nth-child(2) a {
+  text-decoration: none;
+  color: #10cab7;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  display: block;
+}
+.contact .container .text div:last-child{
+  font-size: 17px;
+}
+footer{
+  background-color: #2c4755;
+}
+footer .container{
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  height: 80px;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+footer .container span{
+  padding: 5px;
+  color: #10cab7;
+  font-weight: 700;
+}
