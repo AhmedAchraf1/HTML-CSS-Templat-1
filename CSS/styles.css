@@ -287,6 +287,16 @@ header .container {
   width: 250px;
   height: 375px;
 }
+@media (max-width:1199px) {
+  .about-container .image{
+    display: none;
+  }
+  .about-container .text{
+    margin-left: 25%;
+    text-align: center;
+    white-space: normal;
+  }
+}
 .about-container .image img {
   width: 100%;
   z-index: 3;
