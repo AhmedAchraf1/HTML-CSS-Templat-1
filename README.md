@@ -1,5 +1,19 @@
-A responsive template created using HTML-CSS 
+# Project Title
 
-For watching the template:
+Leon Template
 
-https://ahmedashraf20000.github.io/HTML-CSS-Templat-1/
+## Getting Started
+
+This template is only for applying my skills on the web design using the simplest tools.
+
+### Technologies
+
+[![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
+
+### Installing
+
+Just clone the repo and run it in the the live server.
+
+### Live demo
+
+You can visit the website through this link [live demo](https://github.com/your/project/contributors)
