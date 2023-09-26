@@ -2,11 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Cairo", sans-serif;
   font-family: "Jomhuria", cursive;
   font-family: "Work Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 @media (min-width: 768px) {
   .container {
