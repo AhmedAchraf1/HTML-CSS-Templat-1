@@ -12,8 +12,8 @@ This template is only for applying my skills on the web design using the simples
 
 ### Installing
 
-Just clone the repo and run it in the the live server.
+Just clone the repo and run it on the the live server.
 
 ### Live demo
 
-You can visit the website through this link [live demo](https://github.com/your/project/contributors)
+You can visit the website through this link [live demo]([https://github.com/your/project/contributors](https://leon-template-html-css.vercel.app/)https://leon-template-html-css.vercel.app/)
