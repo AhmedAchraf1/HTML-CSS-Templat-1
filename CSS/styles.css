@@ -280,9 +280,6 @@ header .container {
 }
 .about-container {
   margin-top: 40px;
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 150px;
 }
 .about-container .image {
   position: relative;
@@ -294,7 +291,7 @@ header .container {
     display: none;
   }
   .about-container .text{
-    margin-left: 25%;
+    /* margin-left: 25%; */
     text-align: center;
     white-space: normal;
   }
@@ -307,10 +304,10 @@ header .container {
   display: block;
 }
 .about-container .text {
-  width: 100%;
-  white-space: break-spaces;
-  text-align: start;
+  width: fit-content;
+  text-align: left;
   position: relative;
+  margin-top: 60px;
 }
 .about-container .image::before {
   content: "";
@@ -333,17 +330,20 @@ header .container {
 
 hr {
   width: 50%;
-  position: absolute;
-  right: 40%;
+  margin: 0 auto;
   border-color: #10cab7;
 }
 .about-container .text p:last-child {
   color: #777;
   line-height: 1.6;
+  margin-top: 30px;
+  text-align: center;
 }
 .about-container .text p:first-child {
   font-weight: 700;
   line-height: 1.6;
+  margin-bottom: 30px;
+  text-align: center;
 }
 .contact {
   margin-top: 50px;
@@ -367,7 +367,7 @@ hr {
 .contact .container .text div:nth-child(2) a {
   text-decoration: none;
   color: #10cab7;
-  font-size: 40px;
+  font-size: 35 px;
   font-weight: 700;
   margin-bottom: 20px;
   display: block;
